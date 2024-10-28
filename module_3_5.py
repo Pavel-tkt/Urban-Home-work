@@ -1,7 +1,4 @@
 #Задача "Рекурсивное умножение цифр":
-from idlelib.replace import replace
-
-
 def get_multiplied_digits(number):
     str_number = str(number)
     str_number = str_number.replace('0', '') #удаление всех нулей
